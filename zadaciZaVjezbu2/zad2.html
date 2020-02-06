@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <title>Zadatak 2</title>
+        </head>
+        <body>
+            <h1>Software Order Form</h1>
+            <form action="/action_page.php">
+                <fieldset style="margin-right:60%">
+                    <legend>License details</legend>
+                    <ul>
+                        <li>Email Address <input type="text" placeholder="example@gmail.com" required>></li>
+                        <li>Website <input type="text" placeholder="https://www.example.com/" required>></li>
+                        <li>Number of License <input type="text" placeholder="How many to buy (1-10)" required>></li>
+                    </ul>
+                </fieldset>
+                <fieldset style="margin-right:60%">
+                    <legend>Billing details</legend>
+                    <ul>
+                        <li>Name <input type="text" placeholder="First Last" required>></li>
+                        <li>Adress <textarea name="text" placeholder="House number, street, city, state" id="" cols="24" rows="2" required></textarea>></textarea></li>
+                        <li>Postal code <input type="text" placeholder="Post code or zip code" required>></li>
+                        <li>Country <select name="Countries" id="Country" required>
+                            <option value="Montenegro">Montenegro</option>
+                            <option value="Serbia">Serbia</option>
+                            <option value="Makedonia">Makedonia</option>
+                            <option value="Croatia">Croatia</option>
+                            <option value="Italy">Italiy</option>
+                        </select></li>
+                        <li>Phone (<i>Optional</i>) <input type="text" placeholder="include country profix e.g."></li>
+                    </ul>
+                </fieldset>
+                <fieldset style="margin-right:60%">
+                    <legend>Payment details</legend>
+                    <ul>
+                        <li>Card Number <input type="text" placeholder="As shown on your card" required>></li>
+                        <li>CVV code <input type="text" placeholder="3-digit number on back of your card" required>></li>
+                        <li>Expire date <input type="text" placeholder="YYYY-MM" required>></li>
+                    </ul>
+                </fieldset>
+                <input type="submit" style="border-radius:100px" value="Place Your Order">
+            </form>
+        </body>
+    </html>
