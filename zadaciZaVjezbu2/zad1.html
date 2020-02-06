@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Zadatak 1</title>
+        </head>
+        <body>
+            <form action="/action_page.php">
+            <table border="1px" width="19%" align="center">
+                <tr>
+                    <th colspan="4">Pizza Shop 2.0</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td colspan="3"><input type="text" name="username" maxlength="20" required></td>
+                </tr>
+                <tr>
+                    <td>Pizza Topping</td>
+                    <td colspan="3"><input type="radio" name="Pizza">Supreme<br><input type="radio" name="Pizza">Vegetarian<br><input type="radio" name="Pizza">Hawaiian</td>
+                </tr>
+                <tr>
+                    <td>Pizza Sauce</td>
+                    <td colspan="3"><select name="lista" id="liste">
+                        <option value="Tomato">Tomato</option>
+                        <option value="Garlic">Garlic</option>
+                        <option value="Hot Sauce">Hot Sauce</option>
+                        <option value="Mayo">Mayo</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td colspan="3"><input type="checkbox">Extra Cheese <input type="checkbox">Gluten Free Base</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Delivery Instructions: 
+                        <textarea name="area" id="" cols="47" rows="3" maxlength="100" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Send my Order"></td>
+                </tr>
+            </table>
+            </form>
+        </body>
+    </html>
